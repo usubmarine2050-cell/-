@@ -1,0 +1,5 @@
+{
+  "name": "数字堆栈：求和消除",
+  "description": "一款快节奏的数学益智游戏。通过求和匹配目标数字，在方块堆满屏幕前将其消除。",
+  "requestFramePermissions": []
+}
