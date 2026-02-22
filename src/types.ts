@@ -20,7 +20,19 @@ export interface GameState {
   combo: number;
 }
 
+export interface LeaderboardEntry {
+  name: string;
+  score: number;
+  date: string;
+}
+
+export interface Leaderboard {
+  classic: LeaderboardEntry[];
+  time: LeaderboardEntry[];
+}
+
 export const GRID_ROWS = 10;
+
 export const GRID_COLS = 7;
 export const INITIAL_ROWS = 4;
 export const MAX_VALUE = 9;

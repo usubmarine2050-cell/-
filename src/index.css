@@ -31,4 +31,14 @@
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
     transform: translateY(4px);
   }
+
+  @keyframes gradient-x {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  .animate-gradient-x {
+    background-size: 200% 200%;
+    animation: gradient-x 3s ease infinite;
+  }
 }
